@@ -1,0 +1,13 @@
+diff --git a/bigbrother b/bigbrother
+index 63237a0..76a849f 100755
+--- a/bigbrother
++++ b/bigbrother
+@@ -97,7 +97,7 @@ class Rect:
+ 
+ class Alarm:
+ 	procs = []
+-	soundfile = os.path.join(path.home(), ".local", "share", "bigbrother", "police.mp3")
++	soundfile = "@policemp3@"
+ 
+ 	def __init__(self, silent):
+ 		self.silent = silent

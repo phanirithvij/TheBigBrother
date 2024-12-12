@@ -128,7 +128,7 @@ class BigBrother:
 		self.flms = face_landmarks
 		self.hlms = hand_landmarks
 		self.alarm = Alarm(silent)
-		self.cap = cv2.VideoCapture(0)
+		self.cap = cv2.VideoCapture(1)
 
 		self.mpHands = mp.solutions.hands
 		self.hands = self.mpHands.Hands(
